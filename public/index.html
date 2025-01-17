@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Polling System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="poll-container">
+    <h1>Create Poll</h1>
+    <form id="createPollForm">
+      <input type="text" id="question" placeholder="Poll question" required>
+      <div id="options">
+        <input type="text" class="option" placeholder="Option 1" required>
+        <input type="text" class="option" placeholder="Option 2" required>
+      </div>
+      <button type="submit">Create Poll</button>
+    </form>
+
+    <div id="pollsList">
+      <!-- List of polls will appear here -->
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
